@@ -1431,16 +1431,16 @@ i.inter {
 	text-transform: uppercase;
 } 
 a.b-home{
-  background-color:#26313b;
-  padding:0.8em 3em;
-  display:inline-block;
-  font-color:#FFF;
-  text-decoration:none;
-  margin-top:1em;
+  background-color: #26313b;
+  padding: 0.8em 3em;
+  display: inline-block;
+  font-color: #FFF;
+  text-decoration: none;
+  margin-top: 1em;
 }
 a.b-home:hover{
-  background-color:#f53f1a;
-  font-color:#fff;
+  background-color: #f53f1a;
+  font-color: #fff;
 }
 .artical-links {
   padding: 10px 0px;
