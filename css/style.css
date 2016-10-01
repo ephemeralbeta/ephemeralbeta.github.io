@@ -134,6 +134,7 @@ ul a:focus {
 /*--- slider-css --*/
 .slider {
 	position: relative;
+
 }
 .rslides {
   position: relative;
@@ -217,13 +218,15 @@ a.morebtn:hover{
 	background:#555;	
 }
 .callbacks_here a:after{
-	background:#f53f1a;
+	background: #F2C249;
 }
 .callbacks_tabs a{
 	visibility:hidden;
 }
+/* Slider Core */
 .callbacks_tabs li{
-	display:inline-block;
+	display: inline-block;
+	padding-right: 10px
 }
 ul.callbacks_tabs.callbacks1_tabs {
   position: absolute;
