@@ -1,1 +1,5 @@
-ErrorDocument 404 http://ndslbeta.tk/404.html
+ErrorDocument 404 http://ephemeralbeta.cf/404.html
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]

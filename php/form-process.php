@@ -3,12 +3,17 @@
 $errorMSG = "";
 
 // NAME
-if (empty($_POST["name"])) {
+if (empty($_POST["fname"])) {
     $errorMSG = "Name is required ";
 } else {
-    $name = $_POST["name"];
+    $fname = $_POST["fname"];
 }
 
+if (empty($_POST["fame"])) {
+    $errorMSG = "Name is required ";
+} else {
+    $fname = $_POST["fname"];
+}
 // EMAIL
 if (empty($_POST["email"])) {
     $errorMSG .= "Email is required ";

@@ -2378,6 +2378,18 @@ input[type="button"].btn-block {
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+@font-face{
+  font-family:'Economica Regular';
+  src: url('/fonts/economica-regular.otf');
+}
+@font-face{
+  font-family:'Aller';
+  src: url('/fonts/Aller_Rg.ttf');
+}
+@font-face{
+  font-family:'ADAM';
+  src: url('/fonts/ADAM.CG PRO.otf');
+}
 .glyphicon {
   position: relative;
   top: 1px;
