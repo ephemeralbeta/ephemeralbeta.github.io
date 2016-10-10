@@ -1,0 +1,79 @@
+.stretch-area {
+  background: url(../img/hero-area.jpg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+  overflow: hidden;
+  padding: 90px 0;
+}
+.stretch-area .sticky-navigation {
+  background: transparent;
+}
+.stretch-area .contents h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.stretch-area .contents p {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.stretch-area .contents .btn {
+  margin: 15px;
+}
+.content-wrap {
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+.show-menu .content-wrap {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transform: translate3d(-250px, 0, 0);
+  transform: translate3d(-250px, 0, 0);
+}
+.antidrag {
+  user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+.btn {
+  font-size: 14px;
+  font-weight: 400;
+}
+.btn-web {
+  color: #fff !important;
+}
+.btn-web :hover {
+  /*background: rgba(255, 255, 255, 0.08);*/
+  color: #B7B7B7;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+}
+.imej {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+
+}
+.brightness {
+    -webkit-filter: brightness(.5);
+    filter: brightness(.5);
+}
+.saturate {
+    -webkit-filter: saturate(.7);
+    filter: saturate(.7);
+}
+.italic-text p{
+  font-style: italic;
+}
